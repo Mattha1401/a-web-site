@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create website with BS5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" href="style.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="px-3 py-2 bg-warning text-dark">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                            <img src="images/voll.png" width="60" height="70" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap"></use>
+                            </img>
+                        </a>
+
+                        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                            <li>
+                                <a href="#" class="nav-link text-dark">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg> Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-dark">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg> Teamstaff
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-dark">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg> Store
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-dark">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg> Fixture
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-dark">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg> Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3 py-2 border-bottom mb-3">
+                <div class="container d-flex flex-wrap justify-content-center">
+                    <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-light text-dark me-2">Login</button>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">A DREAM TEAM PLAYER 2023</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/gabi.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/brazil.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-right me-3">
+                                    <svg class="bi me-2" width="-25em" height="20em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>#10 GABI</small>
+                                </li>
+                                <li class="d-flex align-items-left">
+                                    <svg class="bi me-2" width="em" height="22em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>CAPTAIN/OUTSIDE HITTER</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/cansu.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/turkey.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-right me-3">
+                                    <svg class="bi me-2" width="-25em" height="20em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>#3 CANSU</small>
+                                </li>
+                                <li class="d-flex align-items-left">
+                                    <svg class="bi me-2" width="10em" height="22em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>SETTER</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/ayca.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/turkey.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-right me-3">
+                                    <svg class="bi me-2" width="-25em" height="20em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>#5 AYCA</small>
+                                </li>
+                                <li class="d-flex align-items-left">
+                                    <svg class="bi me-2" width="10em" height="22em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>LIBERO</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom"></h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/chika.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/usa.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-right me-3">
+                                    <svg class="bi me-2" width="-25em" height="20em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>#7 CHIKA</small>
+                                </li>
+                                <li class="d-flex align-items-left">
+                                    <svg class="bi me-2" width="10em" height="22em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>MIDLE BLOCKER</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/egonu.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/italy.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-right me-3">
+                                    <svg class="bi me-2" width="-25em" height="20em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>#8 PAOLA</small>
+                                </li>
+                                <li class="d-flex align-items-left">
+                                    <svg class="bi me-2" width="10em" height="22em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>OPPOSITE</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/zehra.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/turkey.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-right me-3">
+                                    <svg class="bi me-2" width="-25em" height="20em"><use xlink:href="#geo-fill"></use></svg>
+                                    <small>#18 ZEHRA</small>
+                                </li>
+                                <li class="d-flex align-items-left">
+                                    <svg class="bi me-2" width="10em" height="22em"><use xlink:href="#calendar3"></use></svg>
+                                    <small>MIDDLE BLOCKER</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container marketing">
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">VakıfBank S.K. <span class="text-muted">VakıfBank Spor Kulübü</span></h2>
+                    <p class="lead">VakıfBank Sports Club (Turkish: VakıfBank Spor Kulübü) is a Turkish volleyball club based in Istanbul, Turkey. Founded in 1986, VakıfBank SK are currently one of the best women's volleyball teams in the world, having won the FIVB Volleyball
+                        Women's Club World Championship a record four times and the European Champions League five times to date..</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/v.3.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Oh yeah, BRAVO. <span class="text-muted">!!</span></h2>
+                    <p class="lead">The team was established following a merger between two separate teams: VakıfBank and Güneş Sigorta.[1] VakıfBank were originally an Ankara-based team but moved to Istanbul after the merger. Their name changed to VakıfBank Güneş Sigorta,
+                        VakıfBank Güneş Sigorta Türk Telekom (VGSTT), VakıfBank Türk Telekom and VakıfBank respectively.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="images/v.4.jpg" width="500" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">lastly, <span class="text-muted">See you in Nationalteam. Paris24 waiting for you</span></h2>
+                    <p class="lead"> The team is coached by Italian Giovanni Guidetti. VakıfBank won 47 games of 47 in the 2012–13 season in all competitions including the European Champions League (12 games), Turkish League (29 games), and Turkish Cup (6 games).</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/v2.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                        </a>
+                        <span class="mb-3 mb-md-0 text-muted">© 2023 Company, Inc</span>
+                    </div>
+
+
+                </footer>
+            </div>
+
+
+
+
+            </svg>
+    </main>
+
+</body>
+
+</html>
